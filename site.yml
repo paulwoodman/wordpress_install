@@ -3,7 +3,7 @@
   hosts: wordpress-server
   #remote_user: devops
   # remote_user: user
-  sudo: yes
+  become: yes
 
   roles:
     - common
